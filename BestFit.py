@@ -11,7 +11,7 @@ from sklearn.model_selection import learning_curve, ShuffleSplit
 # Test Function
 test_function = lambda X: np.sin(100 + np.pi * X)
 
-# Generate random observations around the ground truth function
+# Generate random observations around the test function
 n_samples = 100
 degrees = [1, 10, 20, 100, 500, 1000, 10000] 
 
